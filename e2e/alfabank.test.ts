@@ -15,7 +15,6 @@ const toArray = async (selector: Selector) => {
 };
 
 test("Calculator should be correct work", async testController => {
-  return;
   const estateCost = Selector(`[name="estateCost"]`);
   const balanceOwed = Selector(`[name="balanceOwed"]`);
   const calculator = Selector(`.calculator__mvhCq`);
@@ -33,7 +32,6 @@ test("Calculator should be correct work", async testController => {
 });
 
 test("Product buttons should be work", async testController => {
-  return;
   const buttons = await toArray(
     Selector(".product-tiles__1nmji .button__31w9k")
   );
