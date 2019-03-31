@@ -1,0 +1,18 @@
+{
+  "name": "hello-testcafe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Luchanso/hello-testcafe.git",
+  "author": "Oleg Loutchansky <luchansodev@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.17",
+    "testcafe": "^1.1.0",
+    "typescript": "^3.4.1"
+  },
+  "scripts": {
+    "debug": "testcafe chrome -d -L -c 1",
+    "start": "testcafe -L",
+    "test": "testcafe"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "browsers": "chrome:headless",
+  "screenshotPath": "reports/screenshots",
+  "videoPath": "reports/video",
+  "takeScreenshotsOnFails": true,
+  "skipJsErrors": true,
+  "concurrency": 3,
+  "speed": 0.85,
+  "src": "e2e/",
+  "screenshotPathPattern": "${TEST_INDEX}/${USERAGENT}/${FILE_INDEX}.png",
+  "videoOptions": {
+    "singleFile": true,
+    "failedOnly": true,
+    "pathPattern": "${TEST_INDEX}/${USERAGENT}/video.mp4"
+  }
+}
