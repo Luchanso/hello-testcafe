@@ -7,7 +7,7 @@
   "license": "MIT",
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.0.17",
-    "testcafe": "^1.1.0",
+    "testcafe": "^2.0.0",
     "typescript": "^3.4.1"
   },
   "scripts": {
