@@ -8,7 +8,7 @@
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.0.17",
     "testcafe": "^1.1.0",
-    "typescript": "^3.4.1"
+    "typescript": "^5.0.0"
   },
   "scripts": {
     "debug": "testcafe chrome -d -L -c 1",
